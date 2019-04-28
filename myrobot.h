@@ -1,5 +1,5 @@
-#ifndef MYTCPCLIENT_H
-#define MYTCPCLIENT_H
+#ifndef MYROBOT_H
+#define MYROBOT_H
 
 #include <QObject>
 #include <QTcpSocket>
@@ -32,4 +32,4 @@ private:
     QTimer *TimerEnvoi;
 };
 
-#endif // MYTCPCLIENT_H
+#endif // MYROBOT_H

@@ -1,6 +1,6 @@
-// mytcpsocket.cpp
+// myrobot.cpp
 
-#include "mytcpclient.h"
+#include "myrobot.h"
 
 MyRobot::MyRobot(QObject *parent) : QObject(parent) {
     DataToSend.resize(9);
@@ -68,5 +68,4 @@ void MyRobot::MyTimerSlot() {
     socket->write(DataToSend);
     Mutex.unlock();
 }
-
 
